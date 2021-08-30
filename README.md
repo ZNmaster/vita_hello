@@ -1,5 +1,5 @@
 # vita_hello
-C++ Hello World program for PS-Vita using debugscreen vitasdk
+C++ Hello World program for PS-Vita using debugscreen vitasdk taken from vitasdk/samples and modified to be compilable. 
 
 To install:
 Install .vpk from bin/release via vitashell

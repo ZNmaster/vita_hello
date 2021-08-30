@@ -21,7 +21,7 @@ To build:
 - Manually
 
 From the command line execute:
-arm-vita-eabi-g++ -std=c++11 -I/usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common -c /home/iurii/Hello_World_Vita/src/main_mod.cpp -o obj/Release/src/main_mod.o
+arm-vita-eabi-g++ -std=c++11 -I/usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common -c /src/main_mod.cpp -o obj/Release/src/main_mod.o
 
 arm-vita-eabi-g++ -L/usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common -o bin/Release/Hello_World_Vita obj/Release/src/main_mod.o  -Wl,-q  obj/debugScreen.o -lstdc++ -lpthread -lSceDisplay_stub
 

@@ -20,12 +20,18 @@ To build:
 
 - Manually
 
-From command line execute:
+From the command line execute:
 arm-vita-eabi-g++ -std=c++11 -I/usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common -c /home/iurii/Hello_World_Vita/src/main_mod.cpp -o obj/Release/src/main_mod.o
+
 arm-vita-eabi-g++ -L/usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common -o bin/Release/Hello_World_Vita obj/Release/src/main_mod.o  -Wl,-q  obj/debugScreen.o -lstdc++ -lpthread -lSceDisplay_stub
+
 arm-vita-eabi-strip -g bin/Release/Hello_World_Vita
+
 vita-elf-create bin/Release/Hello_World_Vita bin/Release/Hello_World_Vita.velf
+
 vita-make-fself bin/Release/Hello_World_Vita.velf bin/Release/eboot.bin
+
 vita-mksfoex -s TITLE_ID="VSDK00006" "Hello_World_Vita" bin/Release/param.sfo
+
 vita-pack-vpk -s bin/Release/param.sfo -b bin/Release/eboot.bin --add sce_sys/icon0.png=sce_sys/icon0.png --add sce_sys/livearea/contents/bg.png=sce_sys/livearea/contents/bg.png --add sce_sys/livearea/contents/startup.png=sce_sys/livearea/contents/startup.png --add sce_sys/livearea/contents/template.xml=sce_sys/livearea/contents/template.xml bin/Release/Hello_World_Vita.vpk
 

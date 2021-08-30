@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1603983120 source:/home/vlad/CodeBlocks/Hello_World_Vita/src/main.cpp
+	<psp2/kernel/processmgr.h>
+	<sstream>
+	<vector>
+	<cstdio>
+
+1627309339 /usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common/debugScreen.h
+	"debugScreen_custom.h"
+	"debugScreen.c"
+
+1627309339 /usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common/debugScreen_custom.h
+
+1627309339 /usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common/debugScreen.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<inttypes.h>
+	"debugScreen.h"
+	"debugScreenFont.c"
+	<psp2/display.h>
+	<psp2/kernel/sysmem.h>
+	<psp2/kernel/threadmgr.h>
+
+1627309339 /usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common/debugScreenFont.c
+
+1603693421 source:/home/vlad/CodeBlocks/Hello_World_Vita/src/debugScreen.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<inttypes.h>
+	"debugScreen.h"
+	"debugScreenFont.c"
+	<psp2/display.h>
+	<psp2/kernel/sysmem.h>
+	<psp2/kernel/threadmgr.h>
+
+1603693421 /home/vlad/CodeBlocks/Hello_World_Vita/src/debugScreenFont.c
+
+1603693421 source:/usr/local/vitasdk/share/gcc-arm-vita-eabi/samples/common/debugScreen.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<inttypes.h>
+	"debugScreen.h"
+	"debugScreenFont.c"
+	<psp2/display.h>
+	<psp2/kernel/sysmem.h>
+	<psp2/kernel/threadmgr.h>
+
+1603999034 source:/home/vlad/CodeBlocks/Hello_World_Vita/src/main_mod.cpp
+	<psp2/kernel/processmgr.h>
+	<psp2/display.h>
+	<sstream>
+	<vector>
+	<cstdio>
+	"debugScreen.h"
+
+1604089323 source:/home/iurii/CodeBlocks/Hello_World_Vita/src/main_mod.cpp
+	<psp2/kernel/processmgr.h>
+	<psp2/display.h>
+	<sstream>
+	<iostream>
+	<vector>
+	<cstdio>
+	"debugScreen.h"
+
